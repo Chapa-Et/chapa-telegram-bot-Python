@@ -22,7 +22,7 @@ def start(update, context):
     """Send a message when the command /start is issued."""
     # get the command argument
     
-    update.message.reply_text('Well come to Chapa Test Shopping Bot! \n This shop is for demo purpose only for @chapapayment_bot')
+    update.message.reply_text('Welcome to Chapa Test Shopping Bot! \n This shop is for demo purpose only for @chapapayment_bot')
     try:
         # add button to message and send to channel
         message = update.message
