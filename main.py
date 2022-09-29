@@ -34,7 +34,7 @@ def start(update, context):
             description = 'In Ethiopia and Eritrea played 5-string lyre (krar, kirar). Ready-to-play instrument. Oil finish. It has a beautiful tone und keeps in tune.'
             currency = 'ETB'
             price = 100
-            prices = [LabeledPrice("Test", price * 100)]
+            prices = [LabeledPrice("Test", price * 10)]
             need_shipping_address = False
 
             if 'shipping' in text.lower():
@@ -74,7 +74,7 @@ def channel_post(update, context):
             description = 'In Ethiopia and Eritrea played 5-string lyre (krar, kirar). Ready-to-play instrument. Oil finish. It has a beautiful tone und keeps in tune.'
             currency = 'ETB'
             price = 100
-            prices = [LabeledPrice("Test", price * 100)]
+            prices = [LabeledPrice("Test", price * 10)]
             need_shipping_address = False
 
             if 'shipping' in text.lower():
