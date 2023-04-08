@@ -3,7 +3,7 @@
 # This program is dedicated to the public domain under the CC0 license.
 
 """Basic example for a bot that can receive payment from user."""
-
+import os
 import logging
 from dotenv import load_dotenv
 load_dotenv()
