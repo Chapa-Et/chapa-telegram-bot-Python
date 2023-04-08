@@ -16,8 +16,8 @@ except ImportError:
 
 if __version_info__ < (20, 0, 0, "alpha", 1):
     raise RuntimeError(
-        f"This example is not compatible with your current PTB version {TG_VER}. To view the "
-        f"{TG_VER} version of this example, "
+        f"This example is not compatible with your current PTB version {TG_VER}."
+        
        
     )
 from telegram import LabeledPrice, ShippingOption, Update
